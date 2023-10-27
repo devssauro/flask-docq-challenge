@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # defining env vars
-ENV FLASK_APP=app.app
+ENV FLASK_APP=app
 # watch app' files
 ENV FLASK_DEBUG=true
 ENV FLASK_ENV=development
